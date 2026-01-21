@@ -1,10 +1,31 @@
-*.ds2
-ProgettoGruppoX/venv/
-venv/
-.venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
 build/
 dist/
+
+# venv
+.venv/
+venv/
+ProgettoGruppoX/venv/
+
+# C/ASM artifacts
 *.o
-*.so
-__pycache__/
+*.a
+main
+
+# OS/IDE
 .DS_Store
+.vscode/
+
+# dataset / output
+*.ds2
+id*.ds2
+dist*.ds2
+
+# logs
+*.log
