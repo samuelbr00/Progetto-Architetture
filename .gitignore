@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ProgettoGruppoX/venv/
+
+# C/ASM build
+*.o
+*.a
+*.out
+main
+*.exe
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Dataset/reference (non committarli se sono grandi)
+*.ds2
